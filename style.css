@@ -1,0 +1,31 @@
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addTaskButton {
+  background-color: #467ab2;
+  color: #fff;  
+  border: 1px solid  #467ab2;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid  lightgray;
+  list-style: none;
+  width: 500px;
+  height: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.fa-trash-alt:hover{
+  color: red;
+}
+  
